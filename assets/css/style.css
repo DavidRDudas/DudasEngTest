@@ -597,8 +597,10 @@ section {
   font-style: italic;
 }
 
-.no-italics {
-    font-style: normal;   
+.section-title i {
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 /*--------------------------------------------------------------
