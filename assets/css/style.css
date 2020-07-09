@@ -1033,7 +1033,7 @@ section {
 .cta {
   background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
-  padding: 120px 0;
+  padding: 200px 0;
 }
 
 .cta h3 {
@@ -1079,6 +1079,62 @@ section {
     justify-content: flex-end;
   }
 }
+
+/*--------------------------------------------------------------
+# Cta-two
+--------------------------------------------------------------*/
+.cta-two {
+  background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.cta-two h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cta-two p {
+  color: #fff;
+}
+
+.cta-two .cta-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #f6b024;
+  color: #fff;
+}
+
+.cta-two .cta-btn:hover {
+  background: #f6b024;
+}
+
+@media (max-width: 1024px) {
+  .cta-two {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .cta-two .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Portfoio
