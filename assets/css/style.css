@@ -1498,6 +1498,32 @@ section {
 }
 
 
+.contact .submit-button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: primary;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #f6b024;
+}
+
+.contact .submit-button:hover {
+  background: #f6b024;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
 .contact .info h4 {
   padding: 0 0 0 60px;
   font-size: 20px;
