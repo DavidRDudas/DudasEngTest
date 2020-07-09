@@ -1498,7 +1498,7 @@ section {
 }
 
 
-.contact .submit-button {
+.submit-button {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -1515,12 +1515,11 @@ section {
   border: 2px solid #f6b024;
 }
 
-.contact .submit-button:hover {
+.submit-button:hover {
   background: #f6b024;
   color: #fff;
   text-decoration: none;
 }
-
 
 
 
